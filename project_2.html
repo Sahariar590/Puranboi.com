@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>WWW.Puranboi.com</title>
+</head>
+<body style="background:black; color:white;">
+<header>
+    <nav style=" background: blue; padding: 10px;">
+    <h2 style="margin:0;display: inline; color:white; font-size: 40px;"><i>Puranboi</i></h2>   
+<div style="position:fixed; top:10px;right: 10px;">
+      <a href="home" style="text-decoration:none; color: white; margin-right:10px; ">Home</a>
+      <span>|</span>
+      <a href="about" style="text-decoration:none; color: white; margin-right:10px; ">About</a>
+      <span>|</span>
+      <a href="contact" style="text-decoration:none;  color: white; margin-right:10px;">Contact</a>
+    </nav>
+</div>
+</header>
+<div style="position:relative;">
+
+ <img src="https://images.unsplash.com/photo-1512820790803-83ca734da794" style="width:100%; height:350px; object-fit:cover;">
+
+  <div style="position:absolute; top:150px; left:35%; color:white; text-align:center;">
+    <h1>Buy & Sell Old Books</h1>
+    <button style="background-color: gray;">Explore</button>
+  </div>
+
+</div>
+<section style="padding:40px; text-align:center;">
+
+  <h2 style="margin-bottom:20px;">Our Services</h2>
+
+  <div style="display:flex; gap:15px; justify-content:center; flex-wrap:wrap;">
+
+    <div style="background:blue; padding:20px; width:200px; border-radius:10px; box-shadow:0 0 5px black;"
+    onclick="alert('Buy Books Service')">
+
+      <h3>Buy Books</h3>
+      <p>Affordable books</p>
+
+    </div>
+
+    <div style="background:blue; padding:20px; width:200px; border-radius:10px; box-shadow:0 0 5px black;"
+    onclick="alert('Sell Books Service')">
+
+      <h3>Sell Books</h3>
+      <p>Sell easily</p>
+
+    </div>
+
+    <div style="background:blue; padding:20px; width:200px; border-radius:10px; box-shadow:0 0 5px black;"
+    onclick="alert('Exchange Service')">
+
+      <h3>Exchange</h3>
+      <p>Trade books</p>
+
+    </div>
+
+  </div>
+
+</section>
+<section style="padding:20px; text-align:center;">
+
+  <h2>Books</h2>
+
+  <div>
+
+    <!-- Book 1 -->
+    <div style="margin:10px; border:1px solid gray; padding:10px; width:150px; display:inline-block;">
+      <img src="https://images.unsplash.com/photo-1524995997946-a1c2e315a42f" style="width:100%; height:100px;">
+      <h4>Math Book</h4>
+      <p>150৳</p>
+      <button onclick="alert('Math Book Add to cart')">Buy</button>
+    </div>
+
+    <!-- Book 2 -->
+    <div style="margin:10px; border:1px solid gray; padding:10px; width:150px; display:inline-block;">
+      <img src="https://img.drz.lazcdn.com/g/kf/Sd6a1f368a04042118fe7362419972eeeD.jpg_720x720q80.jpg" style="width:100%; height:100px;">
+      <h4>Physics</h4>
+      <p>200৳</p>
+      <button onclick="alert('Physics Book Add to cart')">Buy</button>
+      
+    </div>
+     <!-- Book 3 -->
+     <div style="margin:10px; border:1px solid white; padding:10px; width:150px; display:inline-block;">
+      <img src="https://rokbucket.rokomari.io/ProductNew20190903/260X372/Chemistry_for_Degree_Students-R_L_Madan-273e6-332929.jpg" style="width:100%; height:100px;">
+      <h4>Chemistry</h4>
+      <p>300৳</p>
+      <button onclick="alert('Chemistry Book Add to cart')">Buy</button>
+      
+    </div>
+
+  </div>
+
+</section>
+<section style="text-align:center; padding:30px;">
+
+  <h2>Join With Us</h2>
+
+  <button onclick="document.getElementById('popup').style.display='flex'"
+  style="padding:10px 20px; background:green; color:white; border:none;">
+    Register Now
+  </button>
+
+</section>
+
+<!-- POPUP FORM -->
+<div id="popup"
+style="display:none; position:fixed; top:0; left:0; width:100%; height:100%;
+background:rgba(0,0,0,0.6); justify-content:center; align-items:center;">
+
+  <div style="background:white; padding:20px; width:250px; text-align:center; position:relative;">
+
+    <span onclick="document.getElementById('popup').style.display='none'"
+    style="position:absolute; top:5px; right:10px; cursor:pointer;">
+      ×
+    </span>
+
+    <h2>Register</h2>
+
+    <input type="text" placeholder="Name" style="width:100%; margin:5px 0; padding:5px;"><br>
+    <input type="email" placeholder="Email" style="width:100%; margin:5px 0; padding:5px;"><br>
+    <input type="text" placeholder="Phone" style="width:100%; margin:5px 0; padding:5px;"><br>
+    <textarea placeholder="Address" style="width:100%; margin:5px 0; padding:5px;"></textarea><br>
+
+    <button onclick="alert('Registration Successful!'); document.getElementById('popup').style.display='none'"
+    style="width:100%; padding:8px; background:blue; color:white; border:none;">
+      Submit
+    </button>
+
+  </div>
+
+</div>
+
+
+</body>
+</html>                  
+
+
